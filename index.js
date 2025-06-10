@@ -1,7 +1,7 @@
 // Code your solution in this file!
 let drivers = ['Antonia', 'Nuru', 'Amari', 'Mo']
 const returnFirstTwoDrivers = (arr) => [arr[0], arr[1]];
-const returnLastTwoDrivers = (arr) => [arr.at(-2), arr[arr.length - 1]];
+const returnLastTwoDrivers = (arr) => [arr[arr.length - 2], arr[arr.length - 1]];
 let selectingDrivers = [returnFirstTwoDrivers,returnLastTwoDrivers];
 function createFareMultiplier(num){
     return (fare) => {
